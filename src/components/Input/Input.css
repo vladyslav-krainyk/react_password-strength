@@ -1,0 +1,34 @@
+.strength-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 40px;
+}
+
+.strength-meter {
+  display: flex;
+  margin-top: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.strength-indicator {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-color: gray;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
