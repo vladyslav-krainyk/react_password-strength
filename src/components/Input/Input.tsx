@@ -23,7 +23,7 @@ export const Input: React.FC = () => {
       passwordStrengthToBarConfig[getPasswordStrength(password)];
     setStrengthPasswordLevels(newStrengthPasswordLevels);
     console.log(strengthPasswordLevels);
-  }, [password]);
+  }, [password, strengthPasswordLevels]);
 
   return (
     <div className="strength-wrapper">
