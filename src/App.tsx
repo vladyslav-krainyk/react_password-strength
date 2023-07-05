@@ -5,7 +5,7 @@ import { Input } from './components/Input';
 
 const App: React.FC = () => {
     return (
-        <Input />
+        <Input/>
     );
 };
 
